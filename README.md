@@ -1,4 +1,7 @@
-This branch contains files for analyzing ASKAP data.
-polarization.ipynb is currently the most up to date version of calculating polarization intensity, after cleaning a visibility set.
-polarizationMulti.ipynb analyzes data across multiple observations and makes plots of specified targets.
-ASKAP_Command_Log.ipynb handles everything up to and including cleaning a visibility set.
+This branch contains files for analyzing polarization from ASKAP data.
+
+ASKAP_Command_Log.ipynb contains a list of command line interface commands using CASA that calibrates and images visibilty sets.
+
+polarization.ipynb takes cleaned visibility sets and calculates polarization intensity
+
+polarizationMulti.ipynb analyzes data across multiple observations and visualizes the data.
